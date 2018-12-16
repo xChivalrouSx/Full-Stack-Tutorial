@@ -6,14 +6,14 @@ namespace GigHub.Migrations
     using System.Data.Entity.Migrations.Infrastructure;
     using System.Resources;
     
-    [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class CreateGigTable : IMigrationMetadata
+    [GeneratedCode("EntityFramework.Migrations", "6.1.1-30610")]
+    public sealed partial class AddNameToApplicationUser : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateGigTable));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddNameToApplicationUser));
         
         string IMigrationMetadata.Id
         {
-            get { return "201812102152194_CreateGigTable"; }
+            get { return "201511192304510_AddNameToApplicationUser"; }
         }
         
         string IMigrationMetadata.Source

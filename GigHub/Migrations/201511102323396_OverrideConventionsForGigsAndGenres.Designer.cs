@@ -6,14 +6,14 @@ namespace GigHub.Migrations
     using System.Data.Entity.Migrations.Infrastructure;
     using System.Resources;
     
-    [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class InitialModel : IMigrationMetadata
+    [GeneratedCode("EntityFramework.Migrations", "6.1.1-30610")]
+    public sealed partial class OverrideConventionsForGigsAndGenres : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialModel));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(OverrideConventionsForGigsAndGenres));
         
         string IMigrationMetadata.Id
         {
-            get { return "201812102137570_InitialModel"; }
+            get { return "201511102323396_OverrideConventionsForGigsAndGenres"; }
         }
         
         string IMigrationMetadata.Source
