@@ -93,13 +93,12 @@ h6,
 
 
 .btn {
-    font-size: 17px;
-    padding: 7px 20px;
     -ms-border-radius: 9px;
     border-radius: 9px;
 }
 
 /* Page-level stypes */
+
 .gigs {
     list-style: none;
 }
@@ -132,11 +131,11 @@ h6,
     padding: 6px 12px;
 }
 
-.gigs > li .details {
-    position: absolute;
-    top: 0;
-    left: 70px;
-}
+    .gigs > li .details {
+        position: absolute;
+        top: 0;
+        left: 70px;
+    }
 
 .gigs > li .details .artist {
     font-weight: bold;
