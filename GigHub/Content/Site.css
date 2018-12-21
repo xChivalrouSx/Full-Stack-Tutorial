@@ -28,6 +28,13 @@ span.field-validation-error {
     font-weight: bold;
 }
 
+.voffset { margin-top: 2px; }
+.voffset1 { margin-top: 5px; }
+.voffset2 { margin-top: 10px; }
+.voffset3 { margin-top: 20px; }
+.voffset4 { margin-top: 40px; }
+.voffset5 { margin-top: 80px; }
+
 /* Bootstrap Overrides */
 .navbar-inverse {
     background-color: #ff4342;
@@ -93,16 +100,16 @@ h6,
 
 
 .btn {
+    /*font-size: 17px;
+    padding: 7px 20px;*/
     -ms-border-radius: 9px;
     border-radius: 9px;
 }
 
-/* Page-level stypes */
-
+/* Page-level styles */
 .gigs {
     list-style: none;
 }
-
 
 .gigs > li {
     position: relative;
@@ -114,6 +121,7 @@ h6,
     color: white;
     text-align: center;
     width: 60px;
+    -ms-border-radius: 8px;
     border-radius: 8px;
 }
 
@@ -124,24 +132,25 @@ h6,
     padding: 2px 6px;
 }
 
-.gigs > li .date .day {
-    background: #f7f7f7;
-    color: #333;
-    font-size: 20px;
-    padding: 6px 12px;
-}
-
-    .gigs > li .details {
-        position: absolute;
-        top: 0;
-        left: 70px;
+    .gigs > li .date .day {
+        background: #f7f7f7;
+        color: #333;
+        font-size: 20px;
+        padding: 6px 12px;
     }
 
-.gigs > li .details .artist {
-    font-weight: bold;
-    display: block;
+.gigs > li .details {
+    position: absolute;
+    top: 0;
+    left: 70px;    
 }
 
-.gigs > li .details .genre {
-    font-size: 15px;
-}
+    .gigs > li .details .artist {
+        font-weight: bold;
+        display: block;
+    }
+
+    .gigs > li .details .genre {
+        font-size: 15px;
+    }
+
